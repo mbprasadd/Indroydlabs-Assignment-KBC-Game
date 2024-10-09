@@ -1,0 +1,37 @@
+/* MobileScreen.css */
+.mobile-screen {
+    background-color: #f1f3f5; /* Light background for mobile screen */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-header {
+    font-size: 1.6em; /* Header size for mobile */
+    color: #0059b3; /* Lighter blue */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .answer-buttons {
+    display: flex; /* Flexbox for answer buttons */
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .answer-button {
+    background-color: #007bff; /* Blue button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transition for effects */
+  }
+  
+  .answer-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  

@@ -1,0 +1,178 @@
+/* src/styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50; /* Dark Green */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.game-screen,
+.mobile-screen {
+  text-align: center;
+  margin: 20px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.optons-button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 180px;
+}
+
+/* Button Styles */
+.button {
+  padding: 12px 24px; /* Increased padding for better clickability */
+  border: none;
+  border-radius: 8px; /* Slightly increased border radius for a softer look */
+  cursor: pointer;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+/* Option Buttons */
+.button-option-a {
+  background-color: #007BFF; /* Blue */
+  color: white;
+}
+
+.button-option-a:hover {
+  background-color: #0056b3; /* Darker Blue on hover */
+}
+
+.button-option-b {
+  background-color: #28A745; /* Green */
+  color: white;
+}
+
+.button-option-b:hover {
+  background-color: #218838; /* Darker Green on hover */
+}
+
+.button-option-c {
+  background-color: #FFC107; /* Yellow */
+  color: black; /* Black text for contrast */
+}
+
+.button-option-c:hover {
+  background-color: #e0a800; /* Darker Yellow on hover */
+}
+
+.button-option-d {
+  background-color: #DC3545; /* Red */
+  color: white;
+}
+
+.button-option-d:hover {
+  background-color: #c82333; /* Darker Red on hover */
+}
+
+/* Submit Button */
+.button-submit {
+  background-color: #17A2B8; /* Teal */
+  color: white;
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+.button-submit:hover {
+  background-color: #138496; /* Darker Teal on hover */
+}
+
+/* Input Field Styles */
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #4CAF50; /* Dark Green */
+  outline: none;
+}
+
+/* QR Code Styles */
+.qr-code {
+  margin: 20px auto;
+}
+
+/* Message Styles */
+.message {
+  font-size: 1.2em;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.correct-message {
+  color: #4CAF50; /* Dark Green */
+}
+
+.wrong-message {
+  color: #F44336; /* Red */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2em;
+  }
+
+  h2 {
+      font-size: 1.5em;
+  }
+
+  .game-screen,
+  .mobile-screen {
+      padding: 20px;
+  }
+
+  .button {
+      padding: 10px 15px; /* Adjust padding for smaller screens */
+  }
+
+  input[type="text"] {
+      width: 90%;
+  }
+}
